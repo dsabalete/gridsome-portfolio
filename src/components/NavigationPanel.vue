@@ -1,11 +1,11 @@
 <template>
     <v-navigation-drawer width="250px" permanent fixed>
         <v-list-item>
-            <v-list-item-avatar>
+            <!-- <v-list-item-avatar>
                 <img
                     src="https://avatars3.githubusercontent.com/u/57623874?s=460&u=bcb4dcb2225b8b904322be5c317dac8cc1347dfb&v=4"
                 />
-            </v-list-item-avatar>
+            </v-list-item-avatar> -->
             <v-list-item-content>
                 <v-list-item-title class="title">
                     David Sabalete

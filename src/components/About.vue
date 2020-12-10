@@ -5,7 +5,7 @@
                 <v-col lg="6">
                     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
                     <g-image
-                        alt="Example image"
+                        alt="David Sabalete photo"
                         src="~/profile.jpg"
                         width="400"
                     />
@@ -58,4 +58,8 @@
 export default {}
 </script>
 
-<style scoped></style>
+<style scoped>
+.g-image {
+    border-radius: 20px;
+}
+</style>
