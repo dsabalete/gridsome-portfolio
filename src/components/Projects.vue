@@ -45,7 +45,8 @@ export default {
                     name: 'Gridsome-Portfolio',
                     github: 'https://github.com/dsabalete/gridsome-portfolio',
                     description: '',
-                    image: 'https://cdn.vuetifyjs.com/images/cards/docks.jpg',
+                    image:
+                        'https://github.com/dsabalete/gridsome-portfolio/raw/main/mockups/portfolio.png',
                 },
                 {
                     name: 'My 1 RM',
