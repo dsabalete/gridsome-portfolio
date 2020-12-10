@@ -18,11 +18,11 @@
                         height="200px"
                         :src="project.image"
                     >
-                        <v-card-title>{{ project.name }}</v-card-title>
                     </v-img>
+                    <v-card-title>{{ project.name }}</v-card-title>
 
                     <v-card-text class="text--primary">
-                        {{ project.description }}
+                        {{ truncate(project.description) }}
                     </v-card-text>
 
                     <v-card-actions>
@@ -44,18 +44,28 @@ export default {
                 {
                     name: 'Gridsome-Portfolio',
                     github: 'https://github.com/dsabalete/gridsome-portfolio',
-                    description: '',
+                    description: 'My Portfolio made with Gridsome and ❤️',
                     image:
                         'https://github.com/dsabalete/gridsome-portfolio/raw/main/mockups/portfolio.png',
                 },
                 {
                     name: 'My 1 RM',
                     github: 'https://github.com/dsabalete/my-1-rm',
-                    description: '',
+                    description:
+                        'The 1RM is the maximum weight with which a single repetition of a particular exercise can be done. Since often testing what that amount is very risky and very expensive for the central nervous system, you can get to know it by applying the Brzycki formula (as long as the number of repetitions is greater than 10). The purpose of this application is to help calculate the 1RM of any training session.',
                     image: 'https://cdn.vuetifyjs.com/images/cards/docks.jpg',
                 },
             ],
         }
+    },
+    methods: {
+        truncate(str) {
+            if (str.length > 80) {
+                return str.slice(0, 80) + '...'
+            } else {
+                return str
+            }
+        },
     },
 }
 </script>
@@ -63,5 +73,9 @@ export default {
 <style scoped>
 .projects {
     background-color: #ffd563;
+}
+
+.v-image {
+    border-bottom: 1px solid black;
 }
 </style>
