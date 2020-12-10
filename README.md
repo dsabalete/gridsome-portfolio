@@ -1,14 +1,27 @@
-# Default starter for Gridsome
+# Gridsome-Portfolio
 
-This is the project you get when you run `gridsome create new-project`.
+My Portfolio made with Gridsome and ❤️
 
-### 1. Install Gridsome CLI tool if you don't have
+### Mockups
 
-`npm install --global @gridsome/cli`
+![Protfolio-1](mockup-portfolio.png 'Screenshot Mockup Portfolio 1')
 
-### 2. Create a Gridsome project
+### Instructions
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+To run it:
+
+```
+npm run develop
+```
+
+To build it:
+
+```
+npm run build
+```
+
+To explore: 😉
+
+```
+npm run explore
+```
