@@ -22,6 +22,32 @@
                         knowledge about the users brings visual UI's to life and
                         leads to webpages being accessible and useful.
                     </p>
+
+                    <p>
+                        I like to create websites for fun, trying out new
+                        technologies and tools to improve myself as developer
+                        and stay up to date with current tech.
+                    </p>
+                    <p>
+                        Apart from being a frontend developer, I am a gym goer
+                        and enjoy training with barbells and iron plates. I also
+                        love watching ted talks and I also enjoy binge watching
+                        films and series on Netflix (for improving my english
+                        skills 😉).
+                    </p>
+                    <p>
+                        And during the summer, I enjoy go camping with my family
+                        near the sea.
+                    </p>
+
+                    <p>
+                        Github:
+                        <a href="https://github.com/dsabalete">dsabalete</a>
+                    </p>
+                    <p>
+                        Twitter:
+                        <a href="https://twitter.com/dsabalete">@dsabalete</a>
+                    </p>
                 </v-col>
             </v-row>
         </v-container>
@@ -32,4 +58,4 @@
 export default {}
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>

@@ -27,7 +27,7 @@ export default {
             items: [
                 { title: 'About', icon: 'mdi-account-box-outline' },
                 { title: 'Projects', icon: 'mdi-apps' },
-                { title: 'Education', icon: 'mdi-school-outline' },
+                { title: 'Education & Experience', icon: 'mdi-school-outline' },
                 { title: 'Contact', icon: 'mdi-message-text-outline' },
             ],
             right: null,
@@ -42,5 +42,6 @@ export default {
 }
 .v-main {
     flex: 1 0;
+    padding-left: 250px;
 }
 </style>
