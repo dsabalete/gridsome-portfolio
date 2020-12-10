@@ -1,5 +1,5 @@
 <template>
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
         <v-container>
             <v-row>
                 <v-col>

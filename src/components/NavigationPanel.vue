@@ -1,5 +1,5 @@
 <template>
-    <v-navigation-drawer width="250px" permanent>
+    <v-navigation-drawer width="250px" permanent fixed>
         <v-list-item>
             <v-list-item-avatar>
                 <img
@@ -19,7 +19,12 @@
         <v-divider></v-divider>
 
         <v-list dense nav>
-            <v-list-item v-for="item in items" :key="item.title" link>
+            <v-list-item
+                v-for="item in items"
+                :key="item.title"
+                link
+                :to="`#${item.title.toLowerCase().replace(' & ', '-')}`"
+            >
                 <v-list-item-icon>
                     <v-icon>{{ item.icon }}</v-icon>
                 </v-list-item-icon>

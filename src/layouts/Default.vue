@@ -37,11 +37,14 @@ export default {
 </script>
 
 <style>
+html {
+    scroll-behavior: smooth;
+}
 .v-application--wrap {
     flex-direction: row;
 }
 .v-main {
     flex: 1 0;
-    padding-left: 250px;
+    margin-left: 250px;
 }
 </style>
