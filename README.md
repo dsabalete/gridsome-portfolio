@@ -2,11 +2,15 @@
 
 My Portfolio made with Gridsome and ❤️
 
-### Mockups
+**Table of Contents**
 
-![Protfolio-1](mockup-portfolio.png 'Screenshot Mockup Portfolio 1')
+1. [Instructions](#instructions)
+1. [Tech Stack](#tech-stack)
+1. [Mochups](#mockups)
+1. [Design](#design)
+1. [Roadmap](#roadmap)
 
-### Instructions
+## Instructions
 
 To run it:
 
@@ -25,3 +29,26 @@ To explore: 😉
 ```
 npm run explore
 ```
+
+## Tech Stack
+
+-   Gridsome.js
+-   Vuetify
+
+## Mockups
+
+<img src="mockups/portfolio.png">
+
+## Design
+
+### Colors
+
+\$white: #FDFDFC
+
+\$light-orange: #FFD563
+
+\$dark-orange: #F8B500
+
+\$teal: #00ADB5
+
+\$dark-blue: #0F1928
