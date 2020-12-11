@@ -27,7 +27,8 @@ export default {
             items: [
                 { title: 'About', icon: 'mdi-account-box-outline' },
                 { title: 'Projects', icon: 'mdi-apps' },
-                { title: 'Education & Experience', icon: 'mdi-school-outline' },
+                { title: 'Education', icon: 'mdi-school-outline' },
+                { title: 'Experience', icon: 'mdi-briefcase-outline' },
                 { title: 'Contact', icon: 'mdi-message-text-outline' },
             ],
             right: null,

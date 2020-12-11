@@ -3,6 +3,7 @@
         <About />
         <Projects />
         <Education />
+        <Experience />
         <Contact />
     </Layout>
 </template>
@@ -11,6 +12,7 @@
 import About from '@/components/About.vue'
 import Contact from '@/components/Contact.vue'
 import Education from '@/components/Education.vue'
+import Experience from '@/components/Experience.vue'
 import Projects from '@/components/Projects.vue'
 
 export default {
@@ -21,6 +23,7 @@ export default {
         About,
         Contact,
         Education,
+        Experience,
         Projects,
     },
 }
@@ -29,5 +32,8 @@ export default {
 <style>
 .home-links a {
     margin-right: 1rem;
+}
+h1 {
+    color: #0f1928;
 }
 </style>

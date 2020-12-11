@@ -1,11 +1,9 @@
 <template>
-    <section class="education-section" id="education-experience">
+    <section class="education-section" id="education">
         <v-container>
             <v-row>
                 <v-col>
-                    <h1>
-                        Education & Experience
-                    </h1>
+                    <h1>Education</h1>
                 </v-col>
             </v-row>
             <v-row>
@@ -159,11 +157,25 @@ export default {
                 description:
                     'An Introduction to Interactive Programming in Python',
             },
+
             {
                 color: 'pink',
                 year: '2013',
                 entity: 'Coursera - Stanford University',
                 description: 'Introduction to Databases',
+            },
+            {
+                color: 'amber',
+                year: '2001',
+                entity: 'Institut Català de Tecnología',
+                description: 'Master Degree in E-Business Technologies',
+            },
+            {
+                color: 'orange',
+                year: '1995',
+                entity: 'Universitat Politècnica de Catalunya',
+                description:
+                    'Degree in Industrial Technical Engineering - Electronics specialty',
             },
         ],
     }),

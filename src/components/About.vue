@@ -2,7 +2,7 @@
     <section id="about">
         <v-container>
             <v-row>
-                <v-col lg="6">
+                <v-col lg="5">
                     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
                     <g-image
                         alt="David Sabalete photo"
@@ -10,8 +10,9 @@
                         width="400"
                     />
                 </v-col>
-                <v-col lg="6">
-                    <h1>Hi, I'm David.</h1>
+                <v-col lg="7">
+                    <h1>👋 Hi, I'm David.</h1>
+
                     <p>
                         I am experienced in Vue.js and Nuxt.js in which I
                         produce high quality code for my clients that are both

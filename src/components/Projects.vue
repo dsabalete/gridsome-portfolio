@@ -1,5 +1,5 @@
 <template>
-    <section class="projects" id="projects">
+    <section class="projects-section" id="projects">
         <v-container>
             <v-row>
                 <v-col>
@@ -71,7 +71,7 @@ export default {
 </script>
 
 <style scoped>
-.projects {
+.projects-section {
     background-color: #ffd563;
 }
 
