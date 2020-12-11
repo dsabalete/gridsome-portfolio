@@ -8,10 +8,30 @@
             </v-row>
             <v-row>
                 <v-col sm="6" offset-sm="3" class="d-flex justify-space-around">
-                    <v-icon large color="black">mdi-github</v-icon>
-                    <v-icon large color="black">mdi-linkedin</v-icon>
-                    <v-icon large color="black">mdi-twitter</v-icon>
-                    <v-icon large color="black">mdi-instagram</v-icon>
+                    <v-icon
+                        large
+                        color="black"
+                        @click="goTo('https://github.com/dsabalete')"
+                        >mdi-github</v-icon
+                    >
+                    <v-icon
+                        large
+                        color="black"
+                        @click="goTo('https://linkedin.com/in/dsabalete')"
+                        >mdi-linkedin</v-icon
+                    >
+                    <v-icon
+                        large
+                        color="black"
+                        @click="goTo('https://twitter.com/dsabalete')"
+                        >mdi-twitter</v-icon
+                    >
+                    <v-icon
+                        large
+                        color="black"
+                        @click="goTo('https://instagram.com/dsabalete')"
+                        >mdi-instagram</v-icon
+                    >
                 </v-col>
             </v-row>
         </v-container>
@@ -19,7 +39,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+    methods: {
+        goTo(url) {
+            window.location = url
+        },
+    },
+}
 </script>
 
 <style scoped>
