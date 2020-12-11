@@ -7,7 +7,11 @@
                 </v-col>
             </v-row>
             <v-row>
-                <v-col sm="6" offset-sm="3" class="d-flex justify-space-around">
+                <v-col
+                    sm="6"
+                    offset-sm="3"
+                    class="d-flex justify-space-around my-15"
+                >
                     <v-icon
                         large
                         color="black"
@@ -51,8 +55,6 @@ export default {
 <style scoped>
 .contact-section {
     background-color: #ffd563;
-}
-.contact-icon {
-    width: 100px;
+    min-height: 30rem;
 }
 </style>

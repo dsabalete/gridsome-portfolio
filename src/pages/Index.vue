@@ -4,6 +4,7 @@
         <Projects />
         <Education />
         <Experience />
+        <Skills />
         <Contact />
     </Layout>
 </template>
@@ -14,25 +15,24 @@ import Contact from '@/components/Contact.vue'
 import Education from '@/components/Education.vue'
 import Experience from '@/components/Experience.vue'
 import Projects from '@/components/Projects.vue'
+import Skills from '@/components/Skills.vue'
 
 export default {
     metaInfo: {
-        title: 'Hello, world!',
+        title: 'David Sabalete - Portfolio',
     },
     components: {
         About,
-        Contact,
+        Projects,
         Education,
         Experience,
-        Projects,
+        Skills,
+        Contact,
     },
 }
 </script>
 
 <style>
-.home-links a {
-    margin-right: 1rem;
-}
 h1 {
     color: #0f1928;
 }

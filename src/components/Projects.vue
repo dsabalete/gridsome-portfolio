@@ -76,6 +76,6 @@ export default {
 }
 
 .v-image {
-    border-bottom: 1px solid black;
+    border-bottom: 0.1rem solid black;
 }
 </style>

@@ -29,6 +29,7 @@ export default {
                 { title: 'Projects', icon: 'mdi-apps' },
                 { title: 'Education', icon: 'mdi-school-outline' },
                 { title: 'Experience', icon: 'mdi-briefcase-outline' },
+                { title: 'Skills', icon: 'mdi-ninja' },
                 { title: 'Contact', icon: 'mdi-message-text-outline' },
             ],
             right: null,

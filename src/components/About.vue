@@ -61,6 +61,6 @@ export default {}
 
 <style scoped>
 .g-image {
-    border-radius: 20px;
+    border-radius: 2rem;
 }
 </style>
