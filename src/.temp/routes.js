@@ -1,4 +1,4 @@
-const c1 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/Users/davidsabalete/repos/gridsome-portfolio/node_modules/gridsome/app/pages/404.vue")
+const c1 = () => import(/* webpackChunkName: "page--src--pages--404-vue" */ "/Users/davidsabalete/repos/gridsome-portfolio/src/pages/404.vue")
 const c2 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/davidsabalete/repos/gridsome-portfolio/src/pages/Index.vue")
 
 export default [
